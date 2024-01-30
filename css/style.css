@@ -55,10 +55,17 @@ nav a:hover {
     color: #a184b2;
     margin-bottom: 20px;
 }
-.header-banner h2 {
+.header-banner h2, h3 {
     font-family: 'Bebas Neue', monospace;
     font-size: 35px;
     color: #b896cb;
+
+    margin-top: 10px;
+}
+.header-banner h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    color: #888888;
 }
 
 /* Section styles */
@@ -168,7 +175,7 @@ section h1, section h2 {
 }
 
 .language-image {
-    background-image: url('../images/hacker2.gif');
+    background-image: url('../images/hacker.gif');
 }
 
 .leadership-image {
