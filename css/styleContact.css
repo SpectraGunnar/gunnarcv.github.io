@@ -8,10 +8,10 @@
 }
 /* Add this to your existing style.css */
 body {
-    background: url('../images/regshow.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: #0f0913 url('../images/regshow.jpg') no-repeat center center / cover fixed;
     font-family: 'Roboto Mono', monospace;
 }
+
 
 nav {
     display: flex;
@@ -45,7 +45,7 @@ nav a:hover {
     margin-bottom: 80px;
 }
 .info p{
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 30px;
 }
 
@@ -84,12 +84,11 @@ nav a:hover {
 
 .contact-card {
     background: #766a88; /* white background for the card */
-    margin: 30px auto; /* centers the card horizontally with some margin */
+    margin: 30px auto 100px; /* top and horizontal margins are 30px, bottom margin is 100px */
     padding: 20px;
     width: 500px; /* adjust as needed */
     border-radius: 10px;
     box-shadow: 8px 8px 16px rgba(182, 19, 125, 0.6); /* Shadow effect */
-    margin-bottom: 100px;
 }
 
 
